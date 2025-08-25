@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Gusto: Fórmula 1</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Estilos para la tabla */
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px auto;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            width: 80%;
+        }
+
+        .styled-table thead tr {
+            background-color: #f57c00;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #333333;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #f57c00;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="home-icon">
+        <img src="../imagenes/home.png" alt="Inicio">
+    </a>
+
+    <div class="hobby-detail-screen">
+        <h2 class="section-title">Fórmula 1</h2>
+        <div class="detail-container">
+            <img src="../imagenes/lando.jpg" alt="Lando Norris" class="detail-image">
+            <div class="detail-text">
+                <h3>Lando Norris</h3>
+                <p>Lando Norris (Bristol, Reino Unido; 13 de noviembre de 1999) es un piloto de automovilismo británico que también posee la nacionalidad belga.</p>
+                <p>Ha sido campeón del Campeonato Mundial de Karting en 2014, de los campeonatos de Eurocopa Fórmula Renault, Fórmula Renault NEC y Toyota Racing Series en 2016, del Campeonato Europeo de Fórmula 3 de la FIA en 2017, y subcampeón del Campeonato de Fórmula 2 de la FIA en 2018, este último como miembro del Programa de Jóvenes Pilotos de McLaren. Desde 2019 es piloto de la escudería McLaren de Fórmula 1, resultando subcampeón en 2024.</p>
+            </div>
+        </div>
+        
+        <h3 class="section-title">Victorias</h3>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>N.º</th>
+                    <th>Año</th>
+                    <th>Gran Premio</th>
+                    <th>Equipo/Motor</th>
+                    <th>Circuito</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/miami.png" alt="Bandera de Miami" style="height: 12px; margin-right: 5px;">Gran Premio de Miami</td>
+                    <td rowspan="9">McLaren-Mercedes</td>
+                    <td>Autódromo Internacional de Miami</td>
+                    <td rowspan="9">9</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/paises_bajos.png" alt="Bandera de Países Bajos" style="height: 12px; margin-right: 5px;">Gran Premio de los Países Bajos</td>
+                    <td>Circuito de Zandvoort</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/singapur.png" alt="Bandera de Singapur" style="height: 12px; margin-right: 5px;">Gran Premio de Singapur</td>
+                    <td>Circuito callejero de Marina Bay</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/abuDabi.png" alt="Bandera de Abu Dabi" style="height: 12px; margin-right: 5px;">Gran Premio de Abu Dabi</td>
+                    <td>Circuito de Yas Marina</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/australia.png" alt="Bandera de Australia" style="height: 12px; margin-right: 5px;">Gran Premio de Australia</td>
+                    <td>Circuito de Albert Park</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>2024</td>
+                    <td><img src="../imagenes/monaco.png" alt="Bandera de Mónaco" style="height: 12px; margin-right: 5px;">Gran Premio de Mónaco</td>
+                    <td>Circuito de Mónaco</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>2025</td>
+                    <td><img src="../imagenes/austria.png" alt="Bandera de Austria" style="height: 12px; margin-right: 5px;">Gran Premio de Austria</td>
+                    <td>Red Bull Ring</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>2025</td>
+                    <td><img src="../imagenes/bretaña.png" alt="Bandera de Gran Bretaña" style="height: 12px; margin-right: 5px;">Gran Premio de Gran Bretaña</td>
+                    <td>Circuito de Silverstone</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>2025</td>
+                    <td><img src="../imagenes/hungria.png" alt="Bandera de Hungría" style="height: 12px; margin-right: 5px;">Gran Premio de Hungría</td>
+                    <td>Hungaroring</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="music-player">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/286L0KkE3PwMWvJzxwe70l" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100025576123502&locale=es_LA" target="_blank">
+                <img src="../imagenes/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com/manugc316" target="_blank">
+                <img src="../imagenes/x.png" alt="X">
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-manuel-garc%C3%ADa-cruz-780b1425b/" target="_blank">
+                <img src="../imagenes/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/manugc316?igsh=MWlibTQxd2I3bTNjaw==" target="_blank">
+                <img src="../imagenes/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
