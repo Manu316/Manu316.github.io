@@ -327,7 +327,7 @@ header p {
 
 .hobby-text p {
     font-size: 1em;
-    text-align: left;
+    text-align: justify;
     color: #bbb;
 }
 
@@ -437,6 +437,7 @@ footer {
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #bbb;
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
