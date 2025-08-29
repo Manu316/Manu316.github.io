@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Personal</title>
+    <title>Carlos Manuel García Cruz</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -36,155 +36,11 @@
             </header>
             <div class="container">
                 <div class="buttons">
-                    <button class="btn" onclick="showScreen('about-me')">Sobre Mí</button>
-                    <button class="btn" onclick="showScreen('hobbies')">Mis Gustos</button>
+                    <a href="sobremi.html" class="btn">Sobre Mí</a>
+                    <a href="gustos.html" class="btn">Mis Gustos</a>
                 </div>
             </div>
         </div>
     </div>
-
-    <div id="about-me" class="screen hidden top-aligned">
-        <a href="#" class="home-icon" onclick="showScreen('intro-screen')">
-            <img src="imagenes/home.png" alt="Inicio">
-        </a>
-        <h2 class="section-title">Sobre Mí</h2>
-        <div class="scroll-container">
-            <div class="content-container">
-                <div class="about-me-content">
-                    <div class="about-me-text">
-                        <p>Soy Carlos Manuel García Cruz, estudiante de Ingeniería de Software. Me apasiona la tecnología y crear proyectos que generen impacto. Siempre busco aprender y mejorar cada día.</p>
-                        <h3>Lenguajes de Programación y Frameworks</h3>
-                        <div class="tech-card">
-                            <ul class="language-list">
-                                <li><img src="imagenes/java.png" alt="Logo de Java"> Java</li>
-                                <li><img src="imagenes/python.png" alt="Logo de Python"> Python</li>
-                                <li><img src="imagenes/html.png" alt="Logo de HTML"> HTML</li>
-                                <li><img src="imagenes/javascript.png" alt="Logo de JavaScript"> JavaScript (Vue.js)</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="about-me-image">
-                        <img src="imagenes/yo.png" alt="Carlos Manuel García Cruz">
-                    </div>
-                </div>
-            </div>
-            
-            <h2 class="section-title">Proyectos</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Fagia Frontend</h3>
-                    <a href="https://github.com/Manu316/Fagia" class="code-btn" target="_blank">
-                        <img src="imagenes/github.png" alt="GitHub Logo">CÓDIGO
-                    </a>
-                    <p>Este proyecto es un frontend desarrollado con Vue.js, que gestiona su estado con Pinia y la navegación con Vue Router. Utiliza Axios para la comunicación con APIs y tiene un sistema de autenticación integrado.</p>
-                </div>
-                <div class="project-card">
-                    <h3>IncluNet</h3>
-                    <a href="https://github.com/Manu316/IncuNet-Anfeca" class="code-btn" target="_blank">
-                        <img src="imagenes/github.png" alt="GitHub Logo">CÓDIGO
-                    </a>
-                    <p>Este proyecto es una aplicación móvil para Android en Kotlin para el aprendizaje del lenguaje de señas mexicano, que proporciona autenticación, navegación por cursos y lecciones, y utiliza Firebase para la gestión de datos y usuarios.</p>
-                </div>
-                <div class="project-card">
-                    <h3>IncluNet Página</h3>
-                    <a href="https://github.com/Manu316/inclunet-pagina" class="code-btn" target="_blank">
-                        <img src="imagenes/github.png" alt="GitHub Logo">CÓDIGO
-                    </a>
-                    <p>Complemento de IncluNet. Sitio web que presenta la aplicación móvil para enseñar lenguaje de señas de una manera interactiva y gamificada a personas con discapacidades auditivas, facilitando su comunicación.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Libreta de direcciones</h3>
-                    <a href="https://github.com/Manu316/GarciaCruz_LibretaDirecciones" class="code-btn" target="_blank">
-                        <img src="imagenes/github.png" alt="GitHub Logo">CÓDIGO
-                    </a>
-                    <p>Esta aplicación de Java es una libreta de direcciones que permite a los usuarios gestionar contactos (agregar, eliminar, buscar y mostrar ordenados) a través de un menú, utilizando un patrón de diseño Singleton para la gestión de datos.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="hobbies" class="screen hidden top-aligned">
-        <a href="#" class="home-icon" onclick="showScreen('intro-screen')">
-            <img src="imagenes/home.png" alt="Inicio">
-        </a>
-        <h2 class="section-title">Mis Gustos</h2>
-        <div class="scroll-container">
-            <div class="content-container">
-                <div class="hobbies-grid">
-                    <a href="html/futbol.html" class="hobby-card">
-                        <img src="imagenes/futbol.jpg" alt="Cancha de fútbol" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Fútbol</h3>
-                            <p>Me gusta el fútbol y veo partidos cada que puedo. Es un deporte que me apasiona demasiado.</p>
-                            <p class="favorite-item">Equipos favoritos: Pumas y Real Madrid</p>
-                        </div>
-                    </a>
-                    <a href="html/musica.html" class="hobby-card">
-                        <img src="imagenes/musica.jpg" alt="Auriculares y nota musical" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Música</h3>
-                            <p>Me gusta la música de todo tipo. Es una parte importante de mi vida diaria y me ayuda a relajarme y concentrarme.</p>
-                            <p class="favorite-item">Género favorito: Pop</p>
-                        </div>
-                    </a>
-                    <a href="html/wwe.html" class="hobby-card">
-                        <img src="imagenes/wwe.jpg" alt="Logo de la WWE" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>WWE</h3>
-                            <p>Llevo años viendo la lucha libre. Me gustan las rivalidades y sus combates que realizan.</p>
-                            <p class="favorite-item">Luchador favorito: Stone Cold</p>
-                        </div>
-                    </a>
-                    <a href="html/f1.html" class="hobby-card">
-                        <img src="imagenes/f1.jpg" alt="Monoplaza de Fórmula 1" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Fórmula 1</h3>
-                            <p>Me gusta la F1. Sigo las carreras porque me gusta la tecnología de los autos, la estrategia de las paradas en boxes y la habilidad de los pilotos.</p>
-                            <p class="favorite-item">Piloto favorito: Lando Norris</p>
-                        </div>
-                    </a>
-                    <a href="html/terror.html" class="hobby-card">
-                        <img src="imagenes/terror.jpg" alt="Película de terror" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Películas de Terror</h3>
-                            <p>Me encantan las películas de terror y los thrillers psicológicos. La tensión y las historias inesperadas son cosas que me agradan.</p>
-                            <p class="favorite-item">Saga favorita: Friday the 13th</p>
-                        </div>
-                    </a>
-                    <a href="html/videojuegos.html" class="hobby-card">
-                        <img src="imagenes/videojuegos.jpg" alt="Mando de videojuego" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Videojuegos</h3>
-                            <p>En algunos ratos libres, me gusta relajarme con algunos videojuegos.</p>
-                            <p class="favorite-item">Juego favorito: Call of Duty</p>
-                        </div>
-                    </a>
-                    <a href="html/monster.html" class="hobby-card">
-                        <img src="imagenes/energeticas.jpg" alt="Bebidas energeticas" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Bebidas energéticas</h3>
-                            <p>Las bebidas energéticas son algo que forman parte de mi vida diaria, me encanta la vairedad de sabores que hay</p>
-                            <p class="favorite-item">Sabor favorito: Monster Zero Ultra</p>
-                        </div>
-                    </a>
-                    <a href="html/gastronomia.html" class="hobby-card">
-                        <img src="imagenes/gastro.jpg" alt="Gastronomia" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Gastronomia</h3>
-                            <p>Las gastronomia es algo que me apasiona demasiado, la idea de jugar con los sabores, combinaciones, me parece fascinante</p>
-                        </div>
-                    </a>
-                    <a href="html/dibujo.html" class="hobby-card">
-                        <img src="imagenes/dibujo.jpg" alt="Dibujo" class="hobby-image">
-                        <div class="hobby-text">
-                            <h3>Dibujo</h3>
-                            <p>El dibujo es uno de mis pasatiempos favoritos, es una actividad que me relaja mucho.</p>
-                        </div>
-                    </a>                                                                
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/script.js"></script>
 </body>
 </html>

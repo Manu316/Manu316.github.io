@@ -498,3 +498,31 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
+
+.nav-group {
+    position: fixed; /* Mantiene el contenedor en la misma posición al hacer scroll */
+    top: 20px;
+    left: 20px;
+    display: flex; /* La clave para que los elementos se coloquen en una fila */
+    gap: 10px; /* Espacio entre los botones */
+    z-index: 1001; /* Asegura que estén encima de otros elementos */
+}
+
+.nav-button {
+    display: block;
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
