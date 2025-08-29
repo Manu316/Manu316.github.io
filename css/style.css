@@ -498,3 +498,23 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
+
+/* Estilos para la nueva sección de clima y hora */
+.info-container {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.info-container h2 {
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
