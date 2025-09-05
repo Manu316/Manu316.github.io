@@ -499,7 +499,6 @@ footer {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilos para la nueva sección de clima y hora */
 .info-container {
     margin-top: 20px;
     text-align: center;
@@ -518,3 +517,10 @@ footer {
     vertical-align: middle;
     margin-right: 10px;
 }
+/*
+.responsive-iframe {
+    width: 100px;
+    height: 152px;
+    border: none;
+}
+    */
